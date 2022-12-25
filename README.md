@@ -39,7 +39,7 @@ target_link_libraries(${PROJECT_NAME} PUBLIC crc)
 ```
 
 
-## usage
+## Usage
 
 ``` cpp
 #include <crc/crchash.h>
