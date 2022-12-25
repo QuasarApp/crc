@@ -47,10 +47,9 @@ target_link_libraries(${PROJECT_NAME} PUBLIC crc)
 int main() {
     std::string data = "This is data for hash";
     
-    auto hash8 = common::Hash8(data)
-    auto hash16 = common::Hash16(data)
-    auto hash32 = common::Hash32(data)
-    auto hash64 = common::Hash64(data)
+    auto hash16 = qa_common::hash16(data)
+    auto hash32 = qa_common::hash32(data)
+    auto hash64 = qa_common::hash64(data)
     
     return 0;
 }
