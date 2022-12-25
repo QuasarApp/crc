@@ -9,17 +9,17 @@
 #define _COMMON_CRC_CRCHASH_H_
 #include <string>
 #include <stdint.h>
-namespace common {
+namespace qa_common {
     // string => 0x0000-0xffff
-    uint16_t Hash16(const std::string& key);
-    uint16_t Hash16(const char* cpKey, const int iKeyLen);
+    uint16_t hash16(const std::string& key);
+    uint16_t hash16(const char* cpKey, const int iKeyLen);
 
     // string => 0x00000000-0xffffffff
-    uint32_t Hash32(const std::string& key);
-    uint32_t Hash32(const char* cpKey, const int iKeyLen);
+    uint32_t hash32(const std::string& key);
+    uint32_t hash32(const char* cpKey, const int iKeyLen);
 
     // string => 0x0000000000000000-0xffffffffffffffff
-    uint64_t Hash64(const std::string& key);
-    uint64_t Hash64(const char* cpKey, const int iKeyLen);    
+    uint64_t hash64(const std::string& key);
+    uint64_t hash64(const char* cpKey, const int iKeyLen);
 } // namespace common
 #endif  // _COMMON_CRC_CRCHASH_H_

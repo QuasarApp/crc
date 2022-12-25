@@ -69,7 +69,7 @@ static uint32_t crc32_tab[] =
 };
 
 /* crc32 hash */
-uint32_t crc32(const char* s, int len)
+uint32_t qa_calc_crc32(const char* s, int len)
 {
     int i;
     uint32_t crc32val = 0;

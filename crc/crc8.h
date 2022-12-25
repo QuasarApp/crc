@@ -8,10 +8,10 @@ extern "C" {
 #endif /* __cplusplus  */
 
 // LSB-first
-uint8_t crc8_lsb(const char *buf, int len);
+uint8_t qa_calc_crc8_lsb(const char *buf, int len);
 
 // MSB-first
-uint8_t crc8_msb(const char *buf, int len);
+uint8_t qa_calc_crc8_msb(const char *buf, int len);
 
 #ifdef __cplusplus
 }

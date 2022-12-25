@@ -6,7 +6,7 @@
 extern "C" {
 #endif /* __cplusplus  */
 
-uint64_t crc64(const char *s, int l);
+uint64_t qa_calc_crc64(const char *s, int l);
 
 #ifdef __cplusplus
 }
