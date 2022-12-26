@@ -1,5 +1,5 @@
 # QuasarApp crc library
-suppot:  crc16/crc32/crc64
+Support:  crc8/crc16/crc32/crc64
 
 ## Build
 
