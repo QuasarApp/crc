@@ -11,12 +11,11 @@ if(TARGET ${PROJECT_NAME})
   return()
 endif()
 
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.19)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-option(BUILD_SHARED_LIBS "Enable or disable shared libraries" OFF)
 option(CRC_TESTS "Enable tests of the ${PROJECT_NAME} library" OFF)
 
 file(GLOB SOURCE_CPP
