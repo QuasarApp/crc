@@ -1,7 +1,7 @@
 /*
 ** The crc32 is licensed under the Apache License, Version 2.0, and a copy of the license is included in this file.
 **
-**Author:Wang Yaofu voipman@qq.com
+**Author:Wang Yaofu 2027 voipman@qq.com
 **Description: The source file of class crc8.
 ** following parameters:
 **
