@@ -87,8 +87,3 @@ Known issue on `main`: the inherited `unit-test/crc_test.cpp` still calls
 the old API (`crc8_msb`, `crc16`, `crc32`, …) while the headers now declare
 the QuasarApp API (`qa_calc_crc8_msb`, …) — `CRC_TESTS=ON` fails at the build
 step until the tests are ported to the current headers (a separate task).
-
-The smoke test (merge gate) is: configure + build the `crc` library green —
-headless, seconds-fast, no external dependencies. A red build blocks the
-merge, because every QuasarApp network/serialization path
-(Heart → Games → Ecliptica) uses these checksums.
